@@ -224,7 +224,7 @@ if __name__ == "__main__":
     if user_size == 3:
         x = int(input("Zadajte, či chcete spustiť príklad z testovacej sady (zadajte 1), alebo zadať vlastný začiatočný a koncový stav (zadajte 2):"))
         if x == 1:
-            file_names = ["vstupy/3x3_vstup1", "vstupy/3x3_vstup2", "vstupy/3x3_vstup3", "vstupy/3x3_vstup_tazsi"]
+            file_names = ["vstupy/3x3_vstup1", "vstupy/3x3_vstup2", "vstupy/3x3_vstup3", "vstupy/3x3_vstup_tazsi", "vstupy/3x3_vstup_viceversa1", "vstupy/3x3_vstup_viceversa2"]
             random_file = random.choice(file_names)
             file_path = random_file
             start_state, end_state = parse_input_file(file_path)
